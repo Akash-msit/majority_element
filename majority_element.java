@@ -11,7 +11,7 @@ public class majority_element {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 4, 4, 5, 10, 10 };
         int n = arr.length;
-        int x = 10;
+        int x = 10;// x=key value
         if (isMajorityElement(arr, n, x))
             System.out.printf("%d appears more than %d " + "times in arr[]", x, n / 2);
         else
